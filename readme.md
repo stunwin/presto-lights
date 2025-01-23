@@ -2,11 +2,17 @@
 
 ## a lil app for you to control your hue lights with your Pimoroni Presto
 
-This is really just for me to build out a repo with a readme and instructions and whatnot. If you find value, I love that, but I suspect it's a bit of a mess.
+This is really just for me to go through the exercise of making a readme. If you find value, I love that, but I suspect it's a bit of a mess.
 
 ### This is for the Pimoroni Presto
 
-Which is a very neat little guy, but if you don't have one, this application is incredibly specific to that hardware and firmware, so you'd be out of luck.
+Which is a very neat little guy, but if you don't have one, this application is incredibly specific to that hardware and firmware, so you'd be out of luck. **It is currently very ugly. I know. I'm sorry**.
+
+### Two versions
+
+The version of `main.py` in the root directory is what I made for my office. The buttons set color temp for the whole room, toggle one specific lamp, and toggle the power for the whole room.
+
+`bedroom/main.py` is for, you guessed it, the bedroom, specifically for use before bed. It allows you to go into night mode, which turns off the other rooms in the house, and sets the bedroom to dimmed. Read mode turns one bedside lamp up. Lights off turns off the whole house, and panic sets every single light in the house to bright instantly.
 
 ### Using the Hue library
 
